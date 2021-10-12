@@ -110,7 +110,6 @@ body{
     position: absolute;
     left:345px;
     top:300px;
-
 }
 
 .active{
@@ -119,4 +118,31 @@ body{
 }
 .active h4{
     color: rgb(77,87,97);
+}
+
+@media screen and (max-width:900px){
+    .first-section{
+        width: 20vw;
+    }
+    .second-section{
+        
+        width: 80vw;
+    }
+    .form-design{
+        
+        display: flex;
+        height:30vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    input[type="file"] {
+        background-color: white;
+        cursor: pointer;
+        position: absolute;
+        left:100px;    
+        padding:50px 20px;
+        width: 25vw;
+        font-size:5px;
+    }
 }
